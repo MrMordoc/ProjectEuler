@@ -3,11 +3,11 @@ this is for Project Euler problem 25"""
 
 def first_fib_length(n):
 	"""Takes an integer n and returns the first fibonacci number that
-	that many digits"""
+	has that many digits"""
 	#define original terms
 	x1 = 1
 	x2 = 1
-	#counts fibonacci terms
+	#represents which Fibonacci term the current x2 is
 	num = 2
 
 	while len(str(x2)) < n:
